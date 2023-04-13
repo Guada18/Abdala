@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Bino.js"></script>
+</head>
+
+<body>
+    <script>
+        do {
+            y = prompt('Ingresa los numeros: ');
+            y = parseInt(y);
+        } while (isNaN(y));
+
+        let arr = new Array(y);
+
+        for (i = 1; i < y; i++) {
+            do {
+                x = prompt('Ingrese valor: ');
+                x = parseInt(x);
+            } while (isNaN(x));
+            arr[i] = x;
+        }
+
+        let amount = new Array(0, 0, 0, 0);
+
+        amount = DetectarMultiplos(arr,amount,y);
+
+        print(amount,arr,y);
+
+    </script>
+</body>
+
+</html>
