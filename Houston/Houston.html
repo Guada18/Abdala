@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="Houston.js"></script>
+</head>
+<body>
+    <script>
+        var x = prompt('Ingrese el tamaño del array');
+
+        var y = new Array(x);
+        var z = new Array(x);
+
+        for (var i = 0; i < x; i++) {
+            y[i] = Math.floor(Math.random() * 10);
+            z[i] = Math.floor(Math.random() * 10);
+        }
+
+        Houston(y, z);
+    </script>
+</body>
+</html>
