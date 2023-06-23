@@ -1,0 +1,54 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 3%;
+    background-color: #AED9E0;
+    text-align: center;
+}
+  
+.container .title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.container .game {
+    flex: 2;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+  
+.container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 25%;
+}
+  
+.container .cell {
+    background-color: #ECECEC;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    width: 20%;
+    height: 80%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .cell:hover {
+    background-color: rgba(26, 113, 124, 0.8);
+    cursor: pointer;
+    color: white;
+}
+
+.celda-seleccionada{
+    background-color: #167da5;
+}
