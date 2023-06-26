@@ -5,15 +5,8 @@
     height: 70vh;
     margin: auto;
     margin-top: 3%;
-    background-color: #AED9E0;
+    background-color: #f08e4d;
     text-align: center;
-}
-  
-.container .title {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
   
 .container .game {
@@ -23,6 +16,7 @@
     justify-content: space-around;
     align-items: center;
     box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
   
 .container .row {
@@ -33,7 +27,7 @@
 }
   
 .container .cell {
-    background-color: #ECECEC;
+    background-color: #f5bc8d;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     width: 20%;
     height: 80%;
@@ -44,11 +38,11 @@
 }
 
 .container .cell:hover {
-    background-color: rgba(26, 113, 124, 0.8);
+    background-color: rgba(231, 126, 27, 0.8);
     cursor: pointer;
     color: white;
 }
 
 .celda-seleccionada{
-    background-color: #167da5;
+    background-color: #e44b0e;
 }
